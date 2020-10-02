@@ -21,3 +21,14 @@ Had some mishaps with extend entities. just had to undo them and manually extend
 ### Talons
 ### Orbs
 ### Jelly_Shell
+
+Final frontier lets do this
+
+The game plan is to:
+1. Use same planes fron the base and do basically the same thing (but with a more bulbous shape)
+2. Use the shell command to make it hollow
+3. use boolean to solve any intersections
+
+Looking back, I feel like I should do it another way, but I'm running out of time and I know how to do this
+
+Ok. how should I construct the shape?
