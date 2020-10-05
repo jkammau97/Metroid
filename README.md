@@ -32,3 +32,15 @@ The game plan is to:
 Looking back, I feel like I should do it another way, but I'm running out of time and I know how to do this
 
 Ok. how should I construct the shape?
+
+I decided on two separate arcs that are tangent at the top and bottom(and then mirror about the vertical center line.
+
+All of the midplanes use this shape, so that the number of verticies is the same at 4.
+
+At one end, the side continues beyond the top, so I just made the lengths proportional to the next one over
+
+How did i do it? Using the line intersection theorem to create similar triangles, and set the lengths equal to the lines constructing the main sketch.
+
+ins proportional triangles
+
+
