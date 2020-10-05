@@ -43,4 +43,14 @@ How did i do it? Using the line intersection theorem to create similar triangles
 
 ins proportional triangles
 
+My 3D fit spline didn't work because I had tried to make it a closed spline. making half of it and then mirroring it as before fixed it
 
+ins ShellComplete
+
+Finally made a shell so it actually looks like a meteriod!
+
+Just one problem...
+
+ins Bad 3D print
+
+It doesn't line up with the base very well...
