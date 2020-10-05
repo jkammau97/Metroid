@@ -20,6 +20,17 @@ I started by tracing out what 2D dimmensions the reference pics were giving me. 
 Had some mishaps with extend entities. just had to undo them and manually extend them.
 
 Came back to the base after creating the shell bc it doesn't line up with the shell. Using composite curves on the outlines in order to have them all meet at the end vertexes.
+
+And ig lofts ***really*** don't like kinks in a guide
+
+ins nolikekink
+
+see? ill just add a sketch fillet to that
+oh boy that didn't work
+
+oh well we can come back to it.
+
+
 ### Talons
 ### Orbs
 ### Jelly_Shell
@@ -56,3 +67,5 @@ Just one problem...
 ins Bad 3D print
 
 It doesn't line up with the base very well...
+
+
