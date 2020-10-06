@@ -87,4 +87,12 @@ imma go do that^
 
 It works! this gives me an Idea...
 
+anyway, back to the shell.
+
+So splitting it so that both parts could be shelled took some trial and error. Eventually i go the main plane that's about perpendicular to the metroid to work (AKA Plane 1). This leads me to believe that you want to split it along a constuction plane, if ur tryin to do a complex loft like me.
+
+Ok now to make the base fit right..
+
+Hmm. Looking back, I shuld've made the middle of the base line up with the bottom of the shell. I think if i were to try and transform it now, it would no longer work.
+
 What if i form a surface using the existing surface base of the base, and extrude remove on the shell to get rid of the overlap?
