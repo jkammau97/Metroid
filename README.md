@@ -30,6 +30,11 @@ oh boy that didn't work
 
 oh well we can come back to it.
 
+I don't think we'll be able to fix that, but let's add a lip around the edge with a sweep!
+
+ins BaseLip
+
+very nice! i think this will also help the shell to fit better later on.
 
 ### Talons
 ### Orbs
@@ -68,4 +73,18 @@ ins Bad 3D print
 
 It doesn't line up with the base very well...
 
+Well I tried to update the base to make it look right but to no avail
 
+I DID figure out how to shell the object, and it's really stupid
+
+It didn't like shelling the whole thing to make it hollow, so what i did is used fill to make a surface with the closed set of splines surrounding the shell, split the shell in two, and now it'll let me remove those faces and shell it :D
+
+Then to recombine, i can just use bool union
+
+now that I'm thinking about it, we could use a sweep to make the lip that you can see on the base, instead of trying to fillet it.
+
+imma go do that^
+
+It works! this gives me an Idea...
+
+What if i form a surface using the existing surface base of the base, and extrude remove on the shell to get rid of the overlap?
