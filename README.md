@@ -23,7 +23,7 @@ Came back to the base after creating the shell bc it doesn't line up with the sh
 
 And ig lofts ***really*** don't like kinks in a guide
 
-[<img src="noLikeKink.png" alt="noLikeKink.png" width="350" height="250">](hello_lcd/hello_lcd.fzz)
+<img src="noLikeKink.png" alt="noLikeKink.png" width="350" height="250">
 
 see? ill just add a sketch fillet to that
 oh boy that didn't work
