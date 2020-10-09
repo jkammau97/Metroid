@@ -1,6 +1,9 @@
 # Metroid
 Goal: Make a Metroid in Onshape
 
+<img src="Images/FrontOnPerspective.jpg" alt="FrontOnPerspective.jpg" width="200" height="177"><img src="Images/FrontOnPerspective.jpg" alt="FrontOnPerspective.jpg" width="200" height="177"><img src="Images/FrontOnPerspective.jpg" alt="FrontOnPerspective.jpg" width="200" height="177"><img src="Images/FrontOnPerspective.jpg" alt="FrontOnPerspective.jpg" width="200" height="177">
+
+[*Link To The Onshape*](https://cvilleschools.onshape.com/documents/ee5223fdaef46bd1839543ff/w/fd398ba0772dd120d6f260a6/e/cab88515b417c9bb29a40312)
 ## Table of contents
 - [Planning](#Planning)
 - [Picture_Sketching](#Picture_Sketching)
@@ -11,6 +14,10 @@ Goal: Make a Metroid in Onshape
 
 ### Planning
 ### Picture_Sketching
+I found this multishot of a metroid from metroid prime
+
+<img src="Images/Metroid_multiple_angles.jpg" alt="Metroid_multiple_angles.jpg" width="512" height="384">
+
 ### Base
 
 note: I had written a lot on here, but it appears that I'd forgotten to save my work so it's all mostly gone :(
@@ -23,7 +30,7 @@ Came back to the base after creating the shell bc it doesn't line up with the sh
 
 And ig lofts ***really*** don't like kinks in a guide
 
-<img src="noLikeKink.png" alt="noLikeKink.png" width="350" height="250">
+<img src="Images/noLikeKink.PNG" alt="noLikeKink.png" width="500" height="250">
 
 see? ill just add a sketch fillet to that
 oh boy that didn't work
@@ -32,7 +39,7 @@ oh well we can come back to it.
 
 I don't think we'll be able to fix that, but let's add a lip around the edge with a sweep!
 
-ins BaseLip
+<img src="Images/BaseLip.PNG" alt="BaseLip.PNG" width="500" height="236">
 
 very nice! i think this will also help the shell to fit better later on.
 
@@ -59,17 +66,19 @@ At one end, the side continues beyond the top, so I just made the lengths propor
 
 How did i do it? Using the line intersection theorem to create similar triangles, and set the lengths equal to the lines constructing the main sketch.
 
-ins proportional triangles
+<img src="Images/intesectionTrianglesToMakeBuiltinProportions.PNG" alt="intesectionTrianglesToMakeBuiltinProportions.PNG" width="500" height="320">
 
 My 3D fit spline didn't work because I had tried to make it a closed spline. making half of it and then mirroring it as before fixed it
 
-ins ShellComplete
+<img src="Images/ShellComplete.PNG" alt="ShellComplete.PNG" width="500" height="402">
 
 Finally made a shell so it actually looks like a meteriod!
 
+*Typo was unintentional, but i like it so it's intentional now >:)*
+
 Just one problem...
 
-ins Bad 3D print
+<img src="Images/Bad3DPrintDesign.PNG" alt="Bad3DPrintDesign.PNG" width="500" height="400">
 
 It doesn't line up with the base very well...
 
