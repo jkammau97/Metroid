@@ -43,6 +43,8 @@ I don't think we'll be able to fix that, but let's add a lip around the edge wit
 
 very nice! i think this will also help the shell to fit better later on.
 
+So Currently, I've been trying to update the base so that it would match what i had already done on one side. I gave up with feature mirror, and just chopped the base in half, removed the un-updated one, part mirror new the half base along with the talons, and unioned the base back together. Jeez I spent too much time on that.
+
 ### Talons
 ### Orbs
 ### Jelly_Shell
