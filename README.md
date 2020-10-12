@@ -107,3 +107,16 @@ Ok now to make the base fit right..
 Hmm. Looking back, I shuld've made the middle of the base line up with the bottom of the shell. I think if i were to try and transform it now, it would no longer work.
 
 What if i form a surface using the existing surface base of the base, and extrude remove on the shell to get rid of the overlap?
+
+Actually, Onshape is really nice and is good at not breaking. I'm able to simply go back to the original sketch, draw a vertical line to where the base SHOULD be, and use the transform function on everything execpt the shell!
+
+
+### Assembly
+
+After all of that long and arduous process, I should theoretically be able to start putting everything together in an assembly to make sure it fits and that I know how everything fits together! This'll also help me to figure out how mates work in Onshape! 
+
+Since the metroid has no moving parts, it's thankfully very easy. just using the fasted mate wherever i'd use the plana mate in solidworks, except just select matching verticies.
+
+Adding in screws was a bit messy. Remember that the types of screws we have at the lab are ANSI 4-40 Socket HEAD CAP Screws
+
+Ok I have no Idea how to mate the orbs. I think Im just gonna build them into the base feature.
