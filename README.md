@@ -46,7 +46,32 @@ very nice! i think this will also help the shell to fit better later on.
 So Currently, I've been trying to update the base so that it would match what i had already done on one side. I gave up with feature mirror, and just chopped the base in half, removed the un-updated one, part mirror new the half base along with the talons, and unioned the base back together. Jeez I spent too much time on that.
 
 ### Talons
+
+I used the picture guides to trace each side of the talons, and then extrude intersected them. This gave it a very jagged look that at first I wasn't going, for, but creatively I thought it really fit the creature well, so I kept it.
+
+When doing extrude intersect, first extrude one face to form a new part, then extrude the other face w/ intersect selected.
+
 ### Orbs
+
+Inserting the orbs ended up being the last, and honestly hardest step. Originally, I had wanted to just mate them in place, but after trying to for 5 minutes, i realized that there was no way that was gonna happen. So, what I'm gonna do so that I only have one orb feature that is just copied throughout the document is to make a part linear pattern to copy em, and then sketch where the centers of each orb is, and just transform them to the right spots.
+
+Now, to make that tumory bubbly texture on the orbs... the 3d printer is naturally gonna do that, but i want better.
+
+Let's try a couple things:
+
+1. Circularpattern the orbs around the sphere, but maybe with a set distance?
+2. make grid of orbs and just use bool intersect?
+
+
+And thankfully, I can do this in another Part Studio and then just import it into the main one
+
+So I can't make the circular pattern a set distance 
+And the grid of orbs creates something that just looks like a golfball.
+
+So, I'm gonna just keep it simple, and if i want to change it in the future, I will.
+
+There is a way to make a chain of features using variables and setting them equal to themselves, but I'd have to really look into that, and I just need to start working on something else.
+
 ### Jelly_Shell
 
 Final frontier lets do this
@@ -120,3 +145,11 @@ Since the metroid has no moving parts, it's thankfully very easy. just using the
 Adding in screws was a bit messy. Remember that the types of screws we have at the lab are ANSI 4-40 Socket HEAD CAP Screws
 
 Ok I have no Idea how to mate the orbs. I think Im just gonna build them into the base feature.
+
+And now with the orbs as part of the base, I think I'll need to add something that'll secure them in place properly.
+
+So i added this spinal cord looking thing in the middle that attaches to all of the orbs. 
+
+At the end, I ran into a problem where the top orb wouldn't union with everything else. Now looking at everything, let's try using the composite part feature.
+
+Uhh ok I think that did what I wanted it to. As long as it can be spit out as 1 3D printed Part.
